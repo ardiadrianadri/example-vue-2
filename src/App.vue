@@ -38,19 +38,19 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <TaskContainer/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import TaskContainer from './store/task-module/task-container.vue';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    TaskContainer,
   },
 
   data: () => ({
